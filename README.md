@@ -12,7 +12,7 @@ ORDER BY b.NAME, a.ID;
 2. Erica and Bob participate in a friendly Hackathon that allows each one to solve one question a day out of the three offered. There will be one easy, one medium and one hard question, with points awarded based on difficulty. The winner is the one with the highest score at the end of the competition based on the following scale:
 ------------------------------------------------------------------------------------------------------------------
                                                 Answer : javascript - nodejs
-
+------------------------------------------------------------------------------------------------------------------
 function winner(erica, bob) {
   const getScore = (str) => {
     let scoreMap = {
