@@ -14,15 +14,12 @@ ORDER BY b.NAME, a.ID;
                                                 Answer : javascript - nodejs
 
 function winner(erica, bob) {
-
-  // Write your code here
   const getScore = (str) => {
     let scoreMap = {
       E: 1,
       M: 3,
       H: 5
     }
-    
     let score = 0;
     str.split("").forEach(el => {
       if(el){
